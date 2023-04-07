@@ -65,10 +65,10 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 			break;
 		}
 		//DirectX毎フレーム処理　ここから
-
+		//コンソールへの文字出力
+		OutputDebugStringA("Hello,DirectX!!\n");
 	// DirectX毎フレーム処理　ここまで
 	}
-	//コンソールへの文字出力
-	OutputDebugStringA("Hello,DirectX!!\n");
+	
 	return 0;
 }
