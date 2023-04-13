@@ -185,6 +185,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		infoQueue->Release();
 	}
 #endif // _DEBUG
+
 	// DirectX‰Šú‰»ˆ—@‚±‚±‚Ü‚Å
 	while (true)
 	{
